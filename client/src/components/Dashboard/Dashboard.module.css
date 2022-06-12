@@ -1,0 +1,74 @@
+.container {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 200px;
+  top: -50px
+}
+
+.title {
+  text-align: center;
+  font-size: 50px;
+  font-family:'Courier New', Courier, monospace;
+  color: black;
+  font-weight: 700;
+}
+
+.heroContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.introSection {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  height: 80vh;
+}
+
+.introTitle {
+  font-family:'Courier New', Courier, monospace;
+  color: black;
+  font-size: 30px;
+}
+
+.introText {
+  margin: 30px 50px 30px 50px;
+  font-family:'Courier New', Courier, monospace;
+  color: black;
+  font-size: 25px;
+}
+
+.blockLottie {
+  height: 300px;
+  width: 300px; 
+  z-index: 10;
+}
+
+.regSection {
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 80vh;
+}
+
+.regButton {
+  width: 300px;
+  height: 50px;
+  border-radius: 20px;
+  font-size: 20px;
+  color: black;
+  background-color: #537895;
+  background-image: linear-gradient(315deg, #537895 0%, #09203f 74%);
+}
+
+.regInput {
+  width: 450px;
+  height: 25px;
+  margin: 0px 0px 30px 0px;
+}

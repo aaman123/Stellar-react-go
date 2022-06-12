@@ -1,0 +1,51 @@
+.accountContainer {
+  display: flex;
+  flex-direction: column;
+  padding: 40px;
+}
+
+.section {
+  display:flex;
+  width: 100%;
+  position: relative;
+  bottom: -50px;
+  
+}
+
+.cardItemLeft {
+  flex: 1 1 0;
+  text-align: center;
+  height: 200px;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fafafa;
+  box-shadow: 0px 1px 1px 0px;
+}
+
+.cardItemRight {
+  flex: 1 1 0;
+  text-align: center;
+  height: 200px;
+  margin: 15px;
+  border-radius: 10px;
+  padding: 20px;
+  background-color: #fafafa;
+  box-shadow: 0px 1px 1px 0px;
+}
+
+.cardTitle {
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.cardContent {
+  font-size: 15px;
+}
+
+.buttonWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
